@@ -1,0 +1,44 @@
+.support{
+padding:120px 8%;
+text-align:center;
+}
+
+.support h1{
+font-size:45px;
+margin-bottom:15px;
+}
+
+.support p{
+color:#bfc8d6;
+margin-bottom:40px;
+}
+
+.support-box{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+}
+
+.box{
+background:#141b2d;
+padding:30px;
+border-radius:15px;
+border:1px solid #22304f;
+}
+
+.box h2{
+margin-bottom:15px;
+}
+
+.box p{
+margin-bottom:20px;
+}
+
+.box a{
+display:inline-block;
+padding:12px 25px;
+background:#4f8cff;
+color:#fff;
+text-decoration:none;
+border-radius:10px;
+}
